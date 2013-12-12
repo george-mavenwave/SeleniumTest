@@ -1,0 +1,1 @@
+java -jar "D:\Mavenwave_Projects\Video_Soln\SeleniumTest\selenium-server-standalone-2.37.0.jar" -htmlSuite "*firefox" "https://accounts.google.com/" "D:\Mavenwave_Projects\Video_Soln\SeleniumTest\Video_Solution_Test_Suite.html" "D:\Mavenwave_Projects\Video_Soln\SeleniumTest\TestResult\seleniumtestresult.html"

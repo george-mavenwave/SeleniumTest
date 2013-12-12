@@ -1,0 +1,224 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>passed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>22</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.37</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" border="1" cellpadding="1" cellspacing="1"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="#testresult0">Login_Video_Soln</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult1">Select_Video_using_Video_Finder</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">Login_Video_Soln.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">Login_Video_Soln</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/ServiceLogin?service=ah&amp;passive=true&amp;continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttp%3A%2F%2Fmw-video-soln-qa.appspot.com%2F&amp;ltmpl=gm&amp;shdf=CiQLEgZhaG5hbWUaGE1hdmVud2F2ZSBWaWRlbyBTb2x1dGlvbgwSAmFoIhQjZ4zF6qDAt8VPJWOpVoTz9V-plygBMhTMqBXBkK6CnnmGlI6goJj2J2I8-g</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=Email</td>
+	<td>video.admin@dev.mavenwave.com</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=Passwd</td>
+	<td>rhino-5-magenta</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>id=signIn</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTitle</td>
+	<td>Maven Wave Partners - Enterprise Video Solution</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">Select_Video_using_Video_Finder.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">Select_Video_using_Video_Finder.html</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>id=channel_name</td>
+	<td>exact:Channel: All</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>select</td>
+	<td>id=channel_list</td>
+	<td>label=Human Resources</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>id=channel_name</td>
+	<td>exact:Channel: Human ResourcesOwner Name : ADMIN</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=search_keyword</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=search_keyword</td>
+	<td>Big Buck</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=search_button</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>link=Big Buck Bunny Updated.mp4</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>id=video_info_container</td>
+	<td>Big Buck Bunny Updated.mp4 by ADMIN 01 Jul 2013 ( 5 months ago )</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/Login_Video_Soln.html
+info: Executing: |open | /ServiceLogin?service=ah&amp;passive=true&amp;continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttp%3A%2F%2Fmw-video-soln-qa.appspot.com%2F&amp;ltmpl=gm&amp;shdf=CiQLEgZhaG5hbWUaGE1hdmVud2F2ZSBWaWRlbyBTb2x1dGlvbgwSAmFoIhQjZ4zF6qDAt8VPJWOpVoTz9V-plygBMhTMqBXBkK6CnnmGlI6goJj2J2I8-g |  |
+info: Executing: |type | id=Email | video.admin@dev.mavenwave.com |
+info: Executing: |type | id=Passwd | rhino-5-magenta |
+info: Executing: |clickAndWait | id=signIn |  |
+info: Executing: |assertTitle | Maven Wave Partners - Enterprise Video Solution |  |
+info: Starting test /selenium-server/tests/Select_Video_using_Video_Finder.html
+info: Executing: |pause | 4000 |  |
+info: Executing: |verifyText | id=channel_name | exact:Channel: All |
+info: Executing: |select | id=channel_list | label=Human Resources |
+info: Executing: |verifyText | id=channel_name | exact:Channel: Human ResourcesOwner Name : ADMIN |
+info: Executing: |click | id=search_keyword |  |
+info: Executing: |type | id=search_keyword | Big Buck |
+info: Executing: |click | id=search_button |  |
+info: Executing: |pause | 3000 |  |
+info: Executing: |click | link=Big Buck Bunny Updated.mp4 |  |
+info: Executing: |pause | 5000 |  |
+info: Executing: |verifyText | id=video_info_container | Big Buck Bunny Updated.mp4 by ADMIN 01 Jul 2013 ( 5 months ago ) |
+</pre></body></html>
